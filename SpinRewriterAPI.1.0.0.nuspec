@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SpinRewriterAPI</id>
+        <version>1.0.0</version>
+        <title>Spin Rewriter API</title>
+        <authors>INFINET, PELock</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Spin Rewriter is a revolutionary article spinner that uses ENL Semantic Spinning to understand the meaning of text. It produces high quality, unique and readable spun articles with a click.</description>
+        <summary>Spin Rewriter is a revolutionary article spinner that uses ENL Semantic Spinning to understand the meaning of text. It produces high quality, unique and readable spun articles with a click. The only article spinner that truly understands the meaning of your content.</summary>
+        <copyright>INFINET LLC</copyright>
+        <language>en-EN</language>
+        <tags>spinner,spinrewriter,seo,article,enl,semantic,language,writing,text</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" />
+        </frameworkAssemblies>
+        <projectUrl>https://www.spinrewriter.com</projectUrl>
+        <license type="expression">Apache-2.0</license>
+        <icon>images\spin-rewriter-icon-128.png</icon>
+
+        <dependencies>
+          <group targetFramework=".NETFramework2.0" />
+        </dependencies>
+
+    </metadata>
+    <files>
+        <file src="src\bin\Release\SpinRewriterAPI.dll" target="lib\net20\SpinRewriterAPI.dll" />
+        <file src="src\bin\Release\SpinRewriterAPI.pdb" target="lib\net20\SpinRewriterAPI.pdb" />
+        <file src="src\bin\Release\SpinRewriterAPI.XML" target="lib\net20\SpinRewriterAPI.XML" />
+        <file src="src\System.Json\JavaScriptReader.cs" target="src\System.Json\JavaScriptReader.cs" />
+        <file src="src\System.Json\JsonArray.cs" target="src\System.Json\JsonArray.cs" />
+        <file src="src\System.Json\JsonObject.cs" target="src\System.Json\JsonObject.cs" />
+        <file src="src\System.Json\JsonPrimitive.cs" target="src\System.Json\JsonPrimitive.cs" />
+        <file src="src\System.Json\JsonType.cs" target="src\System.Json\JsonType.cs" />
+        <file src="src\System.Json\JsonValue.cs" target="src\System.Json\JsonValue.cs" />
+        <file src="src\SpinRewriterAPI.cs" target="src\SpinRewriterAPI.cs" />
+        <file src="images\spin-rewriter-icon-128.png" target="images\" />
+
+    </files>
+</package>
