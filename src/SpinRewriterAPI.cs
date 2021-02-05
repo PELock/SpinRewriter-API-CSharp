@@ -41,7 +41,7 @@ namespace SpinRewriter
     }
 
     /// <summary>
-    /// Main Spin Rewrtier API class. Initialize it first with your email and API key.
+    /// Main Spin Rewriter API class. Initialize it first with your email and API key.
     /// </summary>
     public class SpinRewriterAPI
     {
