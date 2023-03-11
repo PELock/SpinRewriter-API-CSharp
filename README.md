@@ -156,3 +156,9 @@ namespace sample_sdk_api_quota
 ## Need help, have some questions?
 
 For more information visit our site https://www.spinrewriter.com/
+
+Bartosz Wójcik
+
+* Visit my site at — https://www.pelock.com
+* Twitter — https://twitter.com/PELock
+* GitHub — https://github.com/PELock
